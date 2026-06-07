@@ -18,7 +18,7 @@ void spiralMatrix(int matrix[][4],int n, int m){
 
     //Bottom
     for(int j=ecol-1;j>=scol;j--){
-      if(srow==erow){
+      if(srow==erow){ //middle
         break;
       }
       cout<<matrix[erow][j]<<" ";
@@ -26,7 +26,7 @@ void spiralMatrix(int matrix[][4],int n, int m){
 
     //Left
     for(int i=erow-1;i>=srow+1;i--){
-      if(scol==ecol){
+      if(scol==ecol){ //middle
         break;
       }
       cout<<matrix[i][scol]<<" ";
