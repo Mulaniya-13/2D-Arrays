@@ -50,6 +50,7 @@ bool search(int mat[][4],int n,int m,int key){
             i--;
         }
     }
+    cout<<"Key not found in the matrix"<<endl;
     return false;
 }
 
